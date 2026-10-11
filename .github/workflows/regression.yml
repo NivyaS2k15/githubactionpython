@@ -18,5 +18,8 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Show committed parking logic
+        run: cat parking.py
+
       - name: Run regression tests
         run: python -m unittest -v
