@@ -1,7 +1,5 @@
 import unittest
 from parking import should_open_barrier
-
-
 class TestParking(unittest.TestCase):
 
     def test_near_object(self):
